@@ -1,0 +1,56 @@
+.container{
+    justify-content: center;
+    margin-top: 50px;
+    display: grid;
+   grid-template-columns: 100px 100px 100px;
+    gap:2px ;
+    text-align: center;
+    color: white;
+    font-size: smaller;
+  
+   }
+.item{
+    background-color: antiquewhite;
+    padding: 10px;
+   height: 50px;
+   
+}
+@media (max-width:658px){
+  
+        .item{
+            height: 10px;
+               color: black;
+               text-align: left;
+               /* background-color: blue; */
+            }
+    /* #i1{
+    background-color: black;
+   }
+   #i2{
+    background-color: black;
+   }
+   #i3{
+    background-color: black;
+   }
+   #i4{
+    background-color: black;
+   }
+   #i5{
+    background-color: black;
+   }
+   #i6{
+    background-color: black;
+   }
+    #i7{
+        background-color: black;
+       }
+       #i8{
+        background-color: black;
+       }
+       #i9{
+        background-color: black;
+       } */
+
+   }
+
+ 
